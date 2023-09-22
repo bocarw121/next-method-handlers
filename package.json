@@ -1,0 +1,48 @@
+{
+  "name": "next-method-handler",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.ts",
+  "main": "lib/main.js",
+  "module": "lib/module.js",
+  "types": "lib/types.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "rm -rf lib && parcel build",
+    "prepublishOnly": "npm test && npm run build",
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "nextjs",
+    "next",
+    "api",
+    "handler",
+    "method",
+    "route"
+  ],
+  "author": "Bocar Wane",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bocarw121/next-route-handlers.git"
+  },
+  "homepage": "https://github.com/bocarw121/next-route-handlers",
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.9.3",
+    "@parcel/transformer-typescript-types": "^2.8.3",
+    "@types/jest": "^29.5.5",
+    "husky": "^8.0.3",
+    "jest": "^29.7.0",
+    "next": "^13.5.2",
+    "parcel": "^2.8.3",
+    "prettier": "^2.8.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4",
+    "node-mocks-http": "^1.13.0"
+  }
+}
