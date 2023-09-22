@@ -1,7 +1,7 @@
 {
   "name": "next-method-handler",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A utility library for handling HTTP methods in Next.js API routes. It simplifies the process of defining route handlers for different HTTP methods (GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD) without the need for messy conditional statements",
   "source": "src/index.ts",
   "main": "lib/main.js",
   "module": "lib/module.js",
@@ -21,15 +21,15 @@
     "api",
     "handler",
     "method",
-    "route"
+    "method"
   ],
   "author": "Bocar Wane",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bocarw121/next-route-handlers.git"
+    "url": "git+https://github.com/bocarw121/next-method-handlers.git"
   },
-  "homepage": "https://github.com/bocarw121/next-route-handlers",
+  "homepage": "https://github.com/bocarw121/next-method-handlers",
   "devDependencies": {
     "@parcel/packager-ts": "^2.9.3",
     "@parcel/transformer-typescript-types": "^2.8.3",

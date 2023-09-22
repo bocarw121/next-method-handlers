@@ -1,6 +1,6 @@
 # next-method-handler
 
-`next-method-handler` is a utility library for handling HTTP methods in Next.js API routes. It simplifies the process of defining route handlers for different HTTP methods (GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD) without the need for complex conditional statements.
+`next-method-handler` is a utility library for handling HTTP methods in Next.js API routes. It simplifies the process of defining route handlers for different HTTP methods (GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD) without the need for messy conditional statements.
 
 ## Installation
 
