@@ -1,6 +1,6 @@
 {
   "name": "next-method-handler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A utility library for handling HTTP methods in Next.js API routes. It simplifies the process of defining route handlers for different HTTP methods (GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD) without the need for messy conditional statements",
   "source": "src/index.ts",
   "main": "lib/main.js",
